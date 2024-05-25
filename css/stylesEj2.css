@@ -1,0 +1,70 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-image: url('../img/Ejercicio2.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: #333; 
+}
+
+.container {
+    font-family: 'Pacifico', cursive;
+    border-radius: 20px; 
+    border-radius: 10px;
+    color: #e1e0e0;
+    overflow: hidden; 
+}
+form{
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+h1, label{
+    background-image: linear-gradient(135deg, #25fa1a, #0011ff); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+
+#resultado {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em; 
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto; 
+    padding: 10px; 
+}
+.error{
+    
+        color: rgb(255, 0, 0); 
+        font-size: 1em; 
+        font-style: italic;
+        
+    
+    
+}
+
+/********************************************RESPONSIVIDAD***********************************************/
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5em; 
+    }
+
+    .error{
+        font-size: 0.58em;
+    }
+    .form-group label {
+        font-size: 0.875em; 
+    }
+
+    #resultado{
+        font-size: 0.875em; 
+    }
+    input[type="number"],
+    button {
+        font-size: 0.875em; 
+    }
+}
+

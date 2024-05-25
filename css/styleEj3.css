@@ -1,0 +1,55 @@
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-image: url('../img/ejercicio3.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: #333; 
+}
+h1, label, button {
+    color: orange;
+}
+form {
+
+    border-radius: 10px;
+}
+.btn-primary {
+    background-color: #ff4500; 
+    border-color: #ff4500; 
+}
+.container{
+    height: 100vh;
+}
+.btn-primary:hover {
+    background-color: #ff6347; 
+    border-color: #ff6347; 
+}
+#resultado {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em; 
+    color: #e1e0e0;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto; 
+    padding: 10px; 
+    
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5em; 
+    }
+
+    .error{
+        font-size: 0.58em;
+    }
+    .form-group label {
+        font-size: 0.875em; 
+    }
+
+    #resultado{
+        font-size: 0.875em; 
+    }
+    input[type="number"],
+    button {
+        font-size: 0.875em; 
+    }
+}

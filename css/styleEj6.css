@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+        
+body {
+    font-family: 'Lobster', cursive;
+    background-image: url('../img/ejercicio6.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: #fff;
+}
+
+.form-label {
+    color: #292b2e; 
+    font-family: 'Lobster', cursive;
+
+}
+
+.text-correcto {
+    color: #28a745; 
+    font-family: 'Lobster', cursive;
+
+}
+
+.text-error {
+    color: #dc3545; 
+    font-family: 'Lobster', cursive;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1.text-primary {
+    color: #007bff;
+    font-family: Pacifico;
+}
+
+h3.text-secondary {
+    color: #6c757d; 
+    font-family: Pacifico;
+
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+
+#resultado {
+    font-size: 1em;
+    font-weight: bold;
+}
+.text-error{
+    font-family: 'Lobster', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red;
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5em; 
+    }
+
+    .text-error{
+        font-size: 0.58em;
+    }
+    .form-group label {
+        font-size: 0.875em; 
+    }
+
+    #resultado{
+        font-size: 0.875em; 
+    }
+    button {
+        font-size: 0.875em; 
+    }
+}

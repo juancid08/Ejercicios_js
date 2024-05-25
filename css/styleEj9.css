@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: 'Pacifico', cursive;
+    background-image: url('../img/ejercicio9.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form {
+    background: rgba(222, 24, 24, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(146, 184, 32, 0.811);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1.text-primary {
+    color: #007bff;
+    font-family: 'Pacifico', cursive;
+}
+
+h3.text-secondary {
+    color: #6c757d;
+    font-family: 'Pacifico', cursive;
+}
+
+.form-label {
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.text-resultado {
+    color: #28a745;
+}
+
+.text-error {
+    color: #dc3545;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .text-error {
+        font-size: 0.875em;
+    }
+
+    .form-group label {
+        font-size: 0.875em;
+    }
+
+    #resultado {
+        font-size: 0.875em;
+    }
+
+    button {
+        font-size: 0.875em;
+    }
+}
