@@ -19,9 +19,10 @@ function diviEuclides() {
         return;
     }
 
-    if (!numeros.test(dividendo) || !numeros.test(divisor)) {
+    if (!numeros.test(dividendo) || !numeros.test(divisor) || divisor==0) {
         if (!numeros.test(dividendo)) errorDividendo.textContent = "Por favor, introduce un número entero positivo.";
         if (!numeros.test(divisor)) errorDivisor.textContent = "Por favor, introduce un número entero positivo.";
+        if(divisor==0) errorDivisor0.textContent="El divisor es 0 no se puede."
         return;
     }
 
